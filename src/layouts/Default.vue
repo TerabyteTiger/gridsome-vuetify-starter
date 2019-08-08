@@ -1,9 +1,10 @@
 <template>
   <div>
-    <v-toolbar>
-      <strong>
+    <v-toolbar >
+      <v-toolbar-title>
         <g-link to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about">About</g-link>
