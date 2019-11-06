@@ -28,12 +28,13 @@
 
 <script>
   export default {
-    metaInfo: {
-      title: 'Hello, world!',
-      meta: [
-        { name: 'description', content: 'Landing page' },
-      ],
-
+    metaInfo () {
+      return {
+        title: 'Hello, world !',
+        meta: [
+          { name: 'description', content: 'Landing page' },
+        ],
+      }
     },
   }
 </script>

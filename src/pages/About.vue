@@ -7,11 +7,14 @@
 
 <script>
   export default {
-    metaInfo: {
-      title: 'About us',
-      meta: [
-        { name: 'description', content: 'Contact page' },
-      ],
+    metaInfo () {
+      return {
+        title: 'About us',
+        meta: [
+          { name: 'description', content: 'Contact page' },
+        ],
+      }
     },
+
   }
 </script>
