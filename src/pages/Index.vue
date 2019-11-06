@@ -30,7 +30,10 @@
   export default {
     metaInfo: {
       title: 'Hello, world!',
-      description: 'Landing page',
+      meta: [
+        { name: 'description', content: 'Landing page' },
+      ],
+
     },
   }
 </script>

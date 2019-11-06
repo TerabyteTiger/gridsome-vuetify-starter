@@ -9,7 +9,9 @@
   export default {
     metaInfo: {
       title: 'About us',
-      description: 'Contact page',
+      meta: [
+        { name: 'description', content: 'Contact page' },
+      ],
     },
   }
 </script>
