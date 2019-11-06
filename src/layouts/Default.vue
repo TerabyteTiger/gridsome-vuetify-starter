@@ -4,15 +4,12 @@
       <v-app-bar>
         <v-btn
           icon
-          router
-          exact
           :to="$url('/')"
+          title="Home"
         >
           <v-icon>mdi-home</v-icon>
         </v-btn>
-        <v-toolbar-title>
-          {{ $static.metadata.siteName }}
-        </v-toolbar-title>
+        <v-toolbar-title>{{ $static.metadata.siteName }}</v-toolbar-title>
         <v-spacer />
 
         <v-btn :to="$url('/')">
@@ -23,9 +20,11 @@
         </v-btn>
       </v-app-bar>
     </div>
-    <v-content>
-      <slot />
-    </v-content>
+    <v-container>
+      <v-card>
+        <slot />
+      </v-card>
+    </v-container>
   </v-app>
 </template>
 
