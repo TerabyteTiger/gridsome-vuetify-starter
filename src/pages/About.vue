@@ -11,6 +11,7 @@
   export default {
     metaInfo: {
       title: 'About us',
+      description: 'Contact page'
     },
   }
 </script>
