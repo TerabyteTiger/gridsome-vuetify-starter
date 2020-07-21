@@ -1,12 +1,8 @@
 <template>
-  <v-app>
+  <div>
     <div>
       <v-app-bar>
-        <v-btn
-          icon
-          :to="$url('/')"
-          title="Home"
-        >
+        <v-btn icon :to="$url('/')" title="Home">
           <v-icon>mdi-home</v-icon>
         </v-btn>
         <v-toolbar-title>{{ $static.metadata.siteName }}</v-toolbar-title>
@@ -25,7 +21,7 @@
         <slot />
       </v-card>
     </v-container>
-  </v-app>
+  </div>
 </template>
 
 <static-query>
