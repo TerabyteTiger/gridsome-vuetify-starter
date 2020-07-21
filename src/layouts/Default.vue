@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <v-app>
     <div>
       <v-app-bar>
         <v-btn icon :to="$url('/')" title="Home">
@@ -21,7 +21,7 @@
         <slot />
       </v-card>
     </v-container>
-  </div>
+  </v-app>
 </template>
 
 <static-query>
