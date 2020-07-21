@@ -1,5 +1,5 @@
 {
-  "name": "gridsome",
+  "name": "gridsome-vuetify-starter",
   "private": true,
   "scripts": {
     "build": "gridsome build",
