@@ -10,7 +10,7 @@
   "dependencies": {
     "@mdi/font": "^4.5.95",
     "gridsome": "^0.7.9",
-    "vuetify": "^2.1.9"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^4.0.5",
